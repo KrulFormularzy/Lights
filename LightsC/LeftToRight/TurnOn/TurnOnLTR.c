@@ -7,11 +7,10 @@ void TurnOnLTR(int pairOf, int incrementBy, int minPixelValue, int maxPixelValue
 	int *arrayP = calloc(arrayLength, sizeof(int));
 	//magic counter when i was writing this only me and god knew what was purpose
 	//now only god knows what that means
-	//int ohBoi = maxPixelValue + incrementBy * pairOf + arrayLength/incrementBy;
-	int ohBoi = maxPixelValue + arrayLength / pairOf * incrementBy;
+	int endCondition = maxPixelValue + arrayLength / pairOf * incrementBy;
 	for (int j = minPixelValue; ; j += incrementBy)
 	{
-		if (j >= ohBoi && arrayP[arrayLength - 1] == maxPixelValue)
+		if (j >= endCondition && arrayP[arrayLength - 1] == maxPixelValue)
 			break;
 		int firstThreePixels = j;
 		if (firstThreePixels < maxPixelValue)
@@ -30,20 +29,11 @@ void TurnOnLTR(int pairOf, int incrementBy, int minPixelValue, int maxPixelValue
 		for (int i = pairOf; i < arrayLength; i += pairOf)
 		{
 			int valueToSet = arrayP[i - pairOf] - incrementBy;
-			//that was for debug
-			/*if(arrayP[0] == maxPixelValue && arrayP[arrayLength-1] == 0 && valueToSet == 1)
-			{
-				int kp = 1;
-				kp = 0;
-			}*/
 			if (valueToSet < minPixelValue)
 				valueToSet = minPixelValue;
 			if (arrayP[0] == maxPixelValue)
 			{
 				int lastPixels = arrayP[i] + incrementBy;
-				//what the fuck was that?
-				//if(lastPixels < maxPixelValue)
-				  //  valueToSet = arrayP[i] + incrementBy;
 				if (lastPixels >= maxPixelValue)
 					valueToSet = maxPixelValue;
 			}

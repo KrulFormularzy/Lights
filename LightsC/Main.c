@@ -9,12 +9,12 @@ int main()
 	//const do not change - 3 RGB values
 	int pairOf = 3;
 
-	//testing
+	//testing variables
 	int incrementBy = 4;
-	int maxPixelValue = 128;
+	int maxPixelValue = 255;
 	int minPixelValue = 12;
 	//must be divided by3
-	int arrayLength = 18;
+	int arrayLength = 30;
 
 	///LeftToRight Tests
 	//TurnOnLTR(pairOf, incrementBy, minPixelValue, maxPixelValue, arrayLength);
