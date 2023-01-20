@@ -118,10 +118,12 @@
     <ClCompile Include="Main.c" />
     <ClCompile Include="LeftToRight\TurnOff\TurnOffLTR.c" />
     <ClCompile Include="LeftToRight\TurnOn\TurnOnLTR.c" />
+    <ClCompile Include="RightToLeft\TurnOn\TurnOnRTL.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LeftToRight\TurnOff\TurnOffLTR.h" />
     <ClInclude Include="LeftToRight\TurnOn\TurnOnLTR.h" />
+    <ClInclude Include="RightToLeft\TurnOn\TurnOnRTL.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

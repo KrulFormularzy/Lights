@@ -3,8 +3,7 @@
 
 void TurnOffLTR(int pairOf, int incrementBy, int minPixelValue, int maxPixelValue, int arrayLength)
 {
-	int arrayP[30];
-
+	int *arrayP = calloc(arrayLength, sizeof(int));
 	for (int i = 0; i < arrayLength; i++)
 	{
 		arrayP[i] = maxPixelValue;
@@ -44,4 +43,5 @@ void TurnOffLTR(int pairOf, int incrementBy, int minPixelValue, int maxPixelValu
 		printf("\n");
 		printf("\n");
 	}
+	free(arrayP);
 }

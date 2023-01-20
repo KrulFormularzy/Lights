@@ -24,12 +24,18 @@
     <ClCompile Include="LeftToRight\TurnOn\TurnOnLTR.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RightToLeft\TurnOn\TurnOnRTL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LeftToRight\TurnOff\TurnOffLTR.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="LeftToRight\TurnOn\TurnOnLTR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RightToLeft\TurnOn\TurnOnRTL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

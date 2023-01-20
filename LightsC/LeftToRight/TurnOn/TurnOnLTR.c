@@ -4,7 +4,7 @@
 
 void TurnOnLTR(int pairOf, int incrementBy, int minPixelValue, int maxPixelValue, int arrayLength)
 {
-	int arrayP[30];
+	int *arrayP = calloc(arrayLength, sizeof(int));
 	//magic counter when i was writing this only me and god knew what was purpose
 	//now only god knows what that means
 	//int ohBoi = maxPixelValue + incrementBy * pairOf + arrayLength/incrementBy;
@@ -60,4 +60,5 @@ void TurnOnLTR(int pairOf, int incrementBy, int minPixelValue, int maxPixelValue
 		printf("\n");
 		printf("\n");
 	}
+	free(arrayP);
 }
