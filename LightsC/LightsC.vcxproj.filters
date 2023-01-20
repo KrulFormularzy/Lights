@@ -27,6 +27,9 @@
     <ClCompile Include="RightToLeft\TurnOn\TurnOnRTL.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="RightToLeft\TurnOff\TurnOffRTL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LeftToRight\TurnOff\TurnOffLTR.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="RightToLeft\TurnOn\TurnOnRTL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RightToLeft\TurnOff\TurnOffRTL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
