@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "../LightsC/TurnOffLeftToRight/TurnOffLeftToRight.h"
-#include "../LightsC/TurnOnLeftToRight/TurnOnLeftToRight.h"
+#include "../LightsC/LeftToRight/TurnOff/TurnOffLTR.h"
+#include "../LightsC/LeftToRight/TurnOn/TurnOnLTR.h"
 
 int main()
 {

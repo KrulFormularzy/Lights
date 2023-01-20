@@ -116,12 +116,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.c" />
-    <ClCompile Include="TurnOffLeftToRight\TurnOffLeftToRight.c" />
-    <ClCompile Include="TurnOnLeftToRight\TurnOnLeftToRight.c" />
+    <ClCompile Include="LeftToRight\TurnOff\TurnOffLTR.c" />
+    <ClCompile Include="LeftToRight\TurnOn\TurnOnLTR.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TurnOffLeftToRight\TurnOffLeftToRight.h" />
-    <ClInclude Include="TurnOnLeftToRight\TurnOnLeftToRight.h" />
+    <ClInclude Include="LeftToRight\TurnOff\TurnOffLTR.h" />
+    <ClInclude Include="LeftToRight\TurnOn\TurnOnLTR.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

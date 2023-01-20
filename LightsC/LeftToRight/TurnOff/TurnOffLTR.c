@@ -1,9 +1,7 @@
 #include <stdio.h>
-#include "TurnOffLeftToRight.h"
+#include "TurnOffLTR.h"
 
-
-
-void TurnOffLeftToRight(int pairOf, int incrementBy, int minPixelValue, int maxPixelValue, int arrayLength)
+void TurnOffLTR(int pairOf, int incrementBy, int minPixelValue, int maxPixelValue, int arrayLength)
 {
 	int arrayP[30];
 

@@ -18,18 +18,18 @@
     <ClCompile Include="Main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TurnOnLeftToRight\TurnOnLeftToRight.c">
+    <ClCompile Include="LeftToRight\TurnOff\TurnOffLTR.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TurnOffLeftToRight\TurnOffLeftToRight.c">
+    <ClCompile Include="LeftToRight\TurnOn\TurnOnLTR.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="TurnOffLeftToRight\TurnOffLeftToRight.h">
+    <ClInclude Include="LeftToRight\TurnOff\TurnOffLTR.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TurnOnLeftToRight\TurnOnLeftToRight.h">
+    <ClInclude Include="LeftToRight\TurnOn\TurnOnLTR.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

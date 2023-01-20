@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include "TurnOnLeftToRight.h"
+#include "TurnOnLTR.h"
 
 
-void TurnOnLeftToRight(int pairOf, int incrementBy, int minPixelValue, int maxPixelValue, int arrayLength)
+void TurnOnLTR(int pairOf, int incrementBy, int minPixelValue, int maxPixelValue, int arrayLength)
 {
 	int arrayP[30];
 	//magic counter when i was writing this only me and god knew what was purpose
