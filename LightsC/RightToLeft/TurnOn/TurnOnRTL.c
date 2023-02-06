@@ -22,13 +22,13 @@ void TurnOnRTL(int pairOf, int incrementBy, int minPixelValue, int maxPixelValue
 			arrayP[arrayLength - 2] = maxPixelValue;
 			arrayP[arrayLength - 3] = maxPixelValue;
 		}
-
+		
 		for (int i = arrayLength - pairOf - 1; i >= pairOf - 1; i -= pairOf)
 		{
 			int valueToSet = arrayP[i + pairOf] - incrementBy;
 			if (valueToSet < minPixelValue)
 				valueToSet = minPixelValue;
-			if (arrayP[arrayLength - 1] == maxPixelValue)
+			if (arrayP[arrayLength - 1] == maxPixelValue && valueToSet != minPixelValue)
 			{
 				if (arrayP[i] < maxPixelValue)
 					valueToSet = arrayP[i] + incrementBy;
